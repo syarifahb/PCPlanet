@@ -10,4 +10,5 @@ Anggota:
 4. Muhammad Ikram Arullahafif - D121211104
 
 Framework yang akan digunakan: HTML, CSS, & JS
+
 Backend yang akan digunakan: Firebase
