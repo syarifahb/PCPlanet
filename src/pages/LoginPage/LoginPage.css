@@ -1,0 +1,48 @@
+ion-content {
+  font-family: Arial, sans-serif;
+}
+
+ion-title {
+  font-size: 24px;
+  color: #333;
+}
+
+ion-text h1 {
+  font-size: 36px;
+  color: #333;
+}
+
+ion-text p {
+  font-size: 18px;
+  color: #777;
+}
+
+ion-padding {
+  padding: 20px;
+}
+
+#logo ion-img {
+  width: 100%;
+  height: auto;
+}
+
+#daftar,
+#masuk {
+  margin-top: 20px;
+}
+
+ion-label {
+  color: #333;
+}
+
+ion-input {
+  border: 1px solid #777;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+ion-button {
+  --background: #007bff;
+  --color: #fff;
+  margin-top: 10px;
+}

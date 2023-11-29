@@ -1,0 +1,7 @@
+{
+  "name": "PC PLANETS",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
