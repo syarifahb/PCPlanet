@@ -6,6 +6,8 @@ import ShopCategory from './Pages/ShopCategory';
 import Product from './Pages/Product';
 import Cart from './Pages/Cart';
 import Login from './Pages/Login';
+import Hardware from './Pages/Hardware';
+import Software from './Pages/Software';
 
 function App() {
   return (
@@ -14,8 +16,8 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
-        <Route path='/processors' element={<ShopCategory category="processors"/>}/>
-        <Route path='/laptop' element={<ShopCategory category="laptop"/>}/>
+        <Route path='/hardware' element={<Hardware/>}/>
+        <Route path='/software' element={<Software/>}/>
         <Route path='/other product' element={<ShopCategory category="other product"/>}/>
         <Route path="/product" element={<Product/>}/>
           <Route path=':productId' element={<Product/>}/>
