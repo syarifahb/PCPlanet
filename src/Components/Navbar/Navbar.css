@@ -5,6 +5,10 @@
     box-shadow: 0 1px 3px -2px black;
 }
 
+.nav-planet-logo{
+    width: 5vw;
+}
+
 .nav-logo{
     display: flex;
     align-items: center;
