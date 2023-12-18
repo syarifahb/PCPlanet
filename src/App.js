@@ -9,7 +9,9 @@ import Login from './Pages/Login';
 import Hardware from './Pages/Hardware';
 import Software from './Pages/Software';
 import Footer from './Components/Footer/Footer';
-
+import hardware_banner from './Components/Assets/banner-30.png'
+import software_banner from './Components/Assets/banner-20.png'
+import other_banner from './Components/Assets/banner-10.png'
 function App() {
   return (
     <div>
@@ -17,9 +19,9 @@ function App() {
       <Navbar/>
       <Routes>
         <Route path='/' element={<Shop/>}/>
-        <Route path='/hardware' element={<Hardware/>}/>
-        <Route path='/software' element={<Software/>}/>
-        <Route path='/other product' element={<ShopCategory category="other product"/>}/>
+        <Route path='/hardware' element={<ShopCategory banner={hardware_banner} category= "Hardware"/>}/>
+        <Route path='/software' element={<ShopCategory banner={software_banner} category="Software"/>}/>
+        <Route path='/other product' element={<ShopCategory banner={other_banner} category="other product"/>}/>
         <Route path="/product" element={<Product/>}/>
           <Route path=':productId' element={<Product/>}/>
         <Route path='/cart' element={<Cart/>}/>

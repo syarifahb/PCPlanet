@@ -6,6 +6,7 @@ import pintester_icon from '../Assets/pintester_icon.png'
 import whatsapp_icon from '../Assets/whatsapp_icon.png'
 const Footer = () => {
     return(
+        <div className="bfooter">
         <div className="footer">
             <div className="footer-logo">
                 <img src={footer_logo} alt=""/>
@@ -33,6 +34,7 @@ const Footer = () => {
             <hr/>
             <p>Copyright @ 2023 - All Right Reserved</p>
         </div>
+    </div>
     </div>
     )
 }
